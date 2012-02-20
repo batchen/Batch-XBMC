@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.icelibrary"
+       name="IceLibrary"
+       version="0.9.8"
+       provider-name="Batch">
+    <requires>
+        <import addon="xbmc.python" version="1.0"/>
+        <import addon="script.module.simplejson" version="2.0.10"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Stream scene releases from the megaupload links listed on Icefilms.info</summary>
+        <description>Turns your XBMC into an instant free on-demand media-center. Browse the play movies and series found on Icefilms directly from your library.</description>
+    </extension>
+</addon>
+
+<addon id="plugin.video.icelibrary"
+       name="IceLibrary"
+       version="0.9.8"
+       provider-name="Batch">
+    <requires>
+        <import addon="xbmc.python" version="1.0"/>
+        <import addon="script.module.simplejson" version="2.0.10"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Stream scene releases from the megaupload links listed on Icefilms.info</summary>
+        <description>Turns your XBMC into an instant free on-demand media-center. Browse the play movies and series found on Icefilms directly from your library.</description>
+    </extension>
+</addon>
+
+<addon id="repository.batchX.se"
+		name="BatchX XBMC Add-ons"
+		version="1.1.0"
+		provider-name="Batch">
+	<extension point="xbmc.addon.repository"
+		name="Batch XBMC Add-on Repository">
+		<info compressed="true">http://batch.se/xbmc/addons.xml</info>
+		<checksum>http://batch.se/xbmc/addons.xml.md5</checksum>
+		<datadir zip="true">http://batch.se/xbmc/test.php%3Fcool%3Dtest.php%3Fhref%3D</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Add-ons from batch.se</summary>
+		<description>Download and install Add-ons from batch.se</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
